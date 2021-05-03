@@ -1,0 +1,74 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "default",
+         "patterns": ["pm","oop"],
+         "responses": ["Sorry, can't understand you :(", "Try finding it on https://www.tutorialspoint.com/operating_system/os_exams_questions_answers.htm ;)", "I think https://www.sanfoundry.com/operating-system-questions-answers/ can help :)"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can answer your questions related to operating system", "Can help you learn about operating system basics"],
+         "context": [""]
+        },
+        {"tag": "Operating_System",
+         "patterns": ["What is Operating System? give examples.", "Define Operating System", "What is an OS" ],
+         "responses": ["The operating system is a software program that facilitates computer hardware to communicate and operate with the computer software. It is the most important part of a computer system without it computer is just like a box. Example:Microsoft Windows, Apple macOS, Linux, Android and Apple's iOS.","Operating System acts a an interface between computer system and the end user. Most common operating systems are Microsoft Windows, Apple macOS, Linux, Android and Apple's iOS."],
+         "context": [""]
+        },
+        {"tag": "types_OS",
+         "patterns": ["how many types of operating systems are there?","What are the different operating systems?", "Types of OS", "variety of operating systems"],
+         "responses": ["Batched operating systems,Distributed operating systems,Timesharing operating systems,Multi-programmed operating systems,Real-time operating systems"],
+         "context": ["Explain_types_of_os"]
+        },
+        {"tag": "purpose",
+         "patterns": ["What is the main purpose of an operating system?", "What is the main purpose of an OS?", "what is the significance of OS" ],
+         "responses": ["There are two main purposes of an operating system:     1)It is designed to make sure that a computer system performs well by managing its computational activities.     2)It provides an environment for the development and execution of programs."],
+         "context": [""]
+        },
+        {"tag": "Explain_types_of_os",
+         "patterns": ["Explain types of OS","briefly explain types of operating systems","Batched operating systems","Batched os","Distributed operating systems/os","Timesharing operating systems/os","Multi-programmed operating systems/os","Real-time operating systems/os"],
+         "responses": ["check https://www.geeksforgeeks.org/types-of-operating-systems/"],
+         "context": [""]
+        },
+        {"tag": "online_courses",
+         "patterns": ["suggest a good online course", "online course for os", "search good online course" ],
+         "responses": ["check https://www.udemy.com/course/operating-system-concepts/","you can prefer coursera or udemy for learning os"],
+         "context": [""]
+        },
+        {"tag": "Symmetric_Multi_Processing",
+         "patterns": ["SMP","define SMP","what is systematic multi-processing" ],
+         "responses": ["SMP/Symmetric Multi-Processing is the most common type of multiple-processor systems. In this system, each processor runs an identical copy of the operating system, and these copies communicate with one another as needed."],
+         "context": [""]
+        },
+        {"tag": "time_sharing",
+         "patterns": ["What is time- sharing system?", "define time- sharing system", "time- sharing system" ],
+         "responses": ["In a Time-sharing system, the CPU executes multiple jobs by switching among them, also known as multitasking. This process happens so fast that users can interact with each program while it is running."],
+         "context": [""]
+        },
+        {"tag": "problems_faced_without_os",
+         "patterns": ["what are the problems faced by a system without operating system?","before the introduction of os what were the common problems faced by users?"],
+         "responses": ["Operating system is a required component of the computer system. Without an operating system computer hardware is only an inactive electronic machine, which is inconvenient to user for execution of programs. As the computer hardware or machine understands only the machine language. It is difficult to develop each and every program in machine language in order to execute it. Thus without operating system execution of user program or to solve user problems is extremely difficult."],
+         "context": [""]
+        },
+        {"tag": "difference_between_job_and_process",
+         "patterns": ["What is the difference between Job and Process?","define job and process"],
+         "responses": ["A process refers to a program under execution. This program may be an application or system program where as Job means an application program and it is not a system program."],
+         "context": [""]
+        }
+        
+   ]
+}
